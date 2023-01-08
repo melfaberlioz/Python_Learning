@@ -66,8 +66,29 @@ print_a_line(current_line, current_file)
 
 # We form a new valiable using the previous one and add 1 to it's
 # kind of default value (we define it in the line 60).
-current_line = current_line +1
+current_line += 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
+
+
+
+# += operator lets you add two values together and assign the resultant
+# value to a variable. This operator is often referred to as the addition
+# assignment operator. It's shorter than assigning the sesulting value
+# using both + and = sign separately.
+
+# EXAMPLE:
+# a = 10
+# a += 7.5
+# print(a)
+# RETURN: 17.5
+
+# EXAMPLE with STRING:
+# forename = 'John'
+# surname = 'Swanson'
+# forename += surname
+# RETURN: John Swanson
+# The value that comes after the equals sign will be added
+# to the end of the value stored in the variable you specify.
