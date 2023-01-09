@@ -27,5 +27,12 @@ print(f"Age: {age},\nHeight: {height},\nWeight: {weight},\nIQ: {iq}")
 print('Here is a puzzle')
 
 what = add(age, substract(height, multiply(weight, divide (iq, 2))))
+what_2 = age + (height - (weight * (iq / 2)))
 
-print("that becomes: ", what, "\nCan you do it by hand?")
+print("That becomes: ", what, what_2, "\nCan you do it by hand?")
+
+print('*'*10)
+print('Another way to count: simple formula and functions: ')
+formula = divide(weight, add(age, multiply(height, 3)))
+
+print(f"Here is a result: {formula}")
