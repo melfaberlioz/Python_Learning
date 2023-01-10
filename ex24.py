@@ -25,8 +25,11 @@ def secret_formula(started):
     crates = jars / 100
     return jelly_beans, jars, crates
 
-
+# create a variable
 start_point = 10000
+# use variable calling the function above and make new variables
+# named 'beans', 'jars' and 'crates' to hold the return value
+# from the 'def'.
 beans, jars, crates = secret_formula(start_point)
 
 # that is another way to format a string
@@ -39,4 +42,4 @@ start_point = start_point/10
 print("We can also do that this way: ")
 formula = secret_formula(start_point)
 # this is an easy way to apply a list to a format string
-print("We'd ahve {} beand, {} jars and {} crates".format(*formula))
+print("We'd have {} beans, {} jars and {} crates".format(*formula))
