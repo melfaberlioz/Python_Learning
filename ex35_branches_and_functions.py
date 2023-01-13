@@ -2,7 +2,7 @@ from sys import exit
 
 
 def gold_room():
-    print("This room ia full of gold. How much do you take?")
+    print("This room is full of gold. How much do you take?")
 
     choice = input(">>> ")
     if '0' in choice or '1' in choice:
@@ -41,7 +41,7 @@ def bear_room():
 
 def cthulhu_room():
     print("Here you see the great evil Cthulhu.\n"
-          "He, it, whetever stares at you and you go insane.\n"
+          "He, it, whatever stares at you and you go insane.\n"
           "Do you flee for your life or eat your head?")
 
     choice = input('>>> ')
