@@ -1,0 +1,22 @@
+    OOP focuses on the objects that developers want to manipulate
+rather than the logic required to manipulate them.
+This paradigm relies on the concept of classes and objects.
+    It's used to structure a software program into simple,
+reusable pieces of code blueprints (usually called classes),
+which are used to create.
+    A CLASS is an abstract blueprint that creates more specific,
+concrete objects. Classes often represent broad categories, like
+'Car' or 'Dog' that share ATTRIBUTES.
+    Class templates are used as a blueprint to create individual
+objects. These represent specific examples of the abstract class.
+like 'myCar'.
+    For example, say we created a class, 'Car', to contain all the
+properties a car must have, 'color', 'brand', and 'model'. We then create
+an instance of a Car type object, 'myCar' to represent my specific car.
+
+    We could then set the value of the properties defined in the class
+to describe my car without affecting other objects or the class template.
+
+    The main concept of OOPs is to bind the data and the functions
+that work on that together as a single unit so hat no other part of the code
+can access this data.

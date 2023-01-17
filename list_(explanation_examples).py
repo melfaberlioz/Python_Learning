@@ -135,3 +135,16 @@ languages = ['Python', 'Swift', 'C++', 'C', 'Java', 'Rust', 'R']
 languages.remove('Python')
 
 print(languages)
+
+"""List is ine of the most common data structure programmers use.
+They ares simply ordered lists of facts to store and access randomly
+or linearly by an index."""
+
+
+"""WHEN TO USE:
+- if you need to maintain order. Remember, this is listed order,
+not SORTED order. List do not sort for you.
+- if you need to access the contents randomly by a number. Remember, this
+is using CARDINAL (натуральні) numbers starting at 0.
+- if you need to go through the contents linearly (first to last).
+That's what 'for-loops' are for."""

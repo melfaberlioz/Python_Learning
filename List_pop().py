@@ -8,3 +8,4 @@ removed_element = prime_numbers.pop(2)
 
 print('Removed Elements: ', removed_element)
 print('Updated List: ', prime_numbers)
+
