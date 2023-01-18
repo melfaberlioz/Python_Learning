@@ -55,3 +55,4 @@ if not state:
 # get city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print(f"The city fo the state 'TX' is: {city}")
+
