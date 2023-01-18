@@ -10,15 +10,9 @@ states = {
 }
 
 # create a basic set of states and some cities in them
-cities = {
-    'CA': 'San Francisco',
-    'MI': 'Detroit',
-    'FL': 'Jacksonville'
-}
+cities = {'CA': 'San Francisco', 'MI': 'Detroit', 'FL': 'Jacksonville', 'NY': 'New York', 'OR': 'Portland'}
 
 # add some more cities
-cities['NY'] = 'New York'
-cities['OR'] = 'Portland'
 
 # print out some cities
 print('-' * 10)
