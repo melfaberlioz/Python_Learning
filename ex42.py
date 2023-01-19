@@ -1,20 +1,20 @@
 # Animal is-a object
+# 'object' is a class
 class Animal(object):
     pass
 
 
-# Dog is-a object (we can access the member of jne class inside
-# another -- ('Animal') --
+# Dog has-a object, bc class Animal is Child class
+# since it has the name of another class in () -- (object)
 # Child class
 class Dog(Animal):
 
     def __init__(self, name):
-        # has-a object
+        # ?
         self.name = name
 
 
-# is-a relationship
-# Child class
+# has-a relationship
 class Cat(Animal):
 
     def __init__(self, name):
@@ -22,6 +22,7 @@ class Cat(Animal):
         self.name = name
 
 
+# is-a object since it has class named 'object in ()
 class Person(object):
 
     def __init__(self, name):
@@ -32,7 +33,7 @@ class Person(object):
         self.pet = None
 
 
-# is-a relationship
+# has-a relationship
 class Employee(Person):
     def __init__(self, name, salary):
         super(Employee, self).__init__(name)
@@ -44,16 +45,17 @@ class Fish(object):
     pass
 
 
-# is-a object
+# has-a object
 class Salmon(Fish):
     pass
 
 
-# is-a object
+# has-a object
 class Halibut(Fish):
     pass
 
 
+# rover is-a Dog
 rover = Dog('Rover')
 
 satan = Cat('Satan')
