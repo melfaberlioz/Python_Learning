@@ -5,19 +5,22 @@ class Animal(object):
 
 # Dog is-a object (we can access the member of jne class inside
 # another -- ('Animal') --
+# Child class
 class Dog(Animal):
 
     def __init__(self, name):
-        # ?
+        # has-a object
         self.name = name
 
 
 # is-a relationship
+# Child class
 class Cat(Animal):
 
     def __init__(self, name):
         # ?
         self.name = name
+
 
 class Person(object):
 
@@ -36,14 +39,17 @@ class Employee(Person):
         self.salary = salary
 
 
+# is-a object
 class Fish(object):
     pass
 
 
+# is-a object
 class Salmon(Fish):
     pass
 
 
+# is-a object
 class Halibut(Fish):
     pass
 
@@ -54,6 +60,7 @@ satan = Cat('Satan')
 
 mary = Person('Mary')
 
+# is-a
 mary.pet = satan
 
 frank = Employee("Frank", 120000)

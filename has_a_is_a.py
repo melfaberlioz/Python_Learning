@@ -120,7 +120,10 @@ obj.m2()
 """IS-A 
 (Inheritance)
 Inheritance is a mechanism that allows us to
-inherit all the properties from another class.
+inherit all the properties from another class
+but NOT the child to the parent class.
+
+
 The class from which the properties and functionalities 
 are utilized is called the PARENT CLASS (or Base Class).
 The class which uses the properties from another class
